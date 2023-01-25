@@ -8,12 +8,12 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.firebase_apikey,
-  authDomain: process.env.firebase_authdomain,
+  apiKey: "AIzaSyDiKrOEV1vgWymIpTEU849kFoxvl1dQrzs",
+  authDomain: "eanchecker-c7f20.firebaseapp.com",
   projectId: "eanchecker-c7f20",
-  storageBucket: process.env.firebase_storagebucket,
-  messagingSenderId: process.env.firebase_messagingsenderid,
-  appId: process.env.firebase_appid
+  storageBucket: "eanchecker-c7f20.appspot.com",
+  messagingSenderId: "399096407108",
+  appId: "1:399096407108:web:06cfaaad749a645978c811"
 };
 
 // Initialize Firebase
