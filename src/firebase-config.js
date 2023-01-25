@@ -10,7 +10,7 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 const firebaseConfig = {
   apiKey: process.env.firebase_apikey,
   authDomain: process.env.firebase_authdomain,
-  projectId: process.env.firebase_projectid,
+  projectId: "eanchecker-c7f20",
   storageBucket: process.env.firebase_storagebucket,
   messagingSenderId: process.env.firebase_messagingsenderid,
   appId: process.env.firebase_appid
